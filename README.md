@@ -14,6 +14,6 @@ This mark down file will also serve as a place to practisemy markdown syntax
 
 >This text is a quote
 
-To make text azppear as code we use `back ticks` and it will change the appearence of the contained words
+To make text appear as code we use `back ticks` and it will change the appearence of the contained words
 
 ```triple backticks creates a block of code```
