@@ -1,0 +1,53 @@
+/*LAYOUT AND POSITIONING*/
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+header, main {
+    margin: 1%;
+    padding: 1%;
+}
+
+section {
+    padding: 1%;
+    grid-column: 1/span 12;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+}
+
+/*FONTS AND OTHER STUFF*/
+body {
+    background-color:coral;
+    font-size: 1.1em;
+    
+}
+
+
+
+h1, h2 {
+    font-style: italic;
+}
+
+img {
+width: 50%;
+/* height: 20%; */
+}
+
+/* NAVBAR STYLING */
+nav {
+    background-color:cornsilk;
+}
+nav li {
+    list-style-type: none;
+    display: inline-block;
+}
+nav a {
+    text-decoration: none;
+    font-size: 2em;
+}
+
